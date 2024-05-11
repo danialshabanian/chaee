@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: iran;
+  src: url(../font/Woff2/IRANYekanXFaNum-Light.woff2);
+}
+div.back {
+  background-color: #e9e9e9;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+div.porozhe {
+  width: 1598px;
+  background-color: #fcfeff;
+  margin-right: 60px;
+}
+
+div.heder {
+  width: 100%;
+  height: 100px;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+div.heder > ul {
+  height: 8px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-top: 35px;
+  padding-right: 60px;
+}
+div.heder > ul > li {
+  height: 8px;
+  display: flex;
+  gap: 30px;
+  padding: 13px;
+  line-height: 2px;
+  padding-bottom: 20px;
+}
+div.heder > ul > li > a {
+  text-decoration: none;
+  color: #afb2b4;
+  font-size: 16px;
+  font-family: iran;
+}
+div.heder img {
+  position: absolute;
+  top: 45px;
+  right: 230px;
+}
+div.heder > ul > li:hover > a {
+  color: #fcfeff;
+}
+div.paeen {
+  width: 100%;
+  height: 480px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+div.paeen img {
+  width: 350px;
+  height: 400px;
+  padding: 30px;
+}
+div.paeen > div.chil {
+  width: 50%;
+  height: inherit;
+  padding: 150px 200px;
+}
+div.paeen h2 {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: iran;
+  line-height: 28px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #ff0000;
+  display: block;
+}
+div.paeen h3 {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: iran;
+  line-height: 60px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+}
+div.paeen > div.ax {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+div.paeen p {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #898989;
+  display: block;
+}
+div.paeen > div.chil > div.submit {
+  margin-top: 30px;
+  width: 133px;
+  height: 41px;
+  background-color: #fff;
+  font-size: 15px;
+  font-family: iran;
+  line-height: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 11px;
+  border-radius: 7px;
+  border: #e1d4d4ce 0.1px solid;
+}
+div.paeen > div.chil > div.submit:hover {
+  background-color: #ff0000;
+  color: #fcfeff;
+}
+div.matlab {
+  width: 100%;
+}
+div.matlab div {
+  width: 700px;
+  margin: 0 auto;
+}
+div.matlab div.item1 {
+  margin-top: 60px;
+}
+div.matlab > div.item1 h2 {
+  font-size: 20px;
+  font-weight: 4000;
+  font-family: iran;
+  line-height: 28px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #ff0000;
+  display: block;
+}
+div.matlab span {
+  color: #ff0000;
+}
+div.matlab > div.item1 h3 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+}
+div.matlab > div.item2 h3 {
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+}
+div.matlab > div.item3 h2 {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 4000;
+  font-family: iran;
+  line-height: 28px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #ff0000;
+  display: block;
+}
+div.matlab > div.item3 h3 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+}
+div.matlab > div.item4 {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+div.matlab > div.item4 h2 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+}
+div.axberenj {
+  width: 100%;
+  height: 525px;
+  background-color: #e9d69f;
+  display: flex;
+  justify-content: center;
+}
+div.axberenj img {
+  width: 100%;
+  height: 500px;
+}
+div.axberenj > div.neweshte1 {
+  width: 289px;
+  height: 97px;
+  background-color: #ff0000;
+  color: #afb2b4;
+  position: absolute;
+  right: 400px;
+  top: 1850px;
+}
+div.axberenj h2 {
+  font-size: 29px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  padding: 5px 20px 0 0;
+  word-spacing: 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axberenj h3 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  padding: 0px 20px 0 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.matlab2 span {
+  color: #ff0000;
+}
+div.matlab2 {
+  width: 100%;
+}
+div.matlab2 div {
+  width: 700px;
+  margin: 0 auto;
+}
+div.matlab2 > div.item5 h2 {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 4000;
+  font-family: iran;
+  line-height: 28px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #ff0000;
+  display: block;
+}
+div.matlab2 > div.item5 h3 {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #58595b;
+  display: block;
+  margin-bottom: 30px;
+}
+div.dokme1 {
+  width: 137px;
+  height: 41px;
+  background-color: lightsalmon;
+}
+div.axchaee {
+  margin-top: 50px;
+  width: 100%;
+  height: 525px;
+  background-color: #e9d69f;
+  display: flex;
+  justify-content: center;
+}
+div.axchaee img {
+  width: 100%;
+  height: 500px;
+}
+div.axchaee > div.neweshte1 {
+  width: 289px;
+  height: 97px;
+  background-color: #ff0000;
+  color: #afb2b4;
+  position: absolute;
+  right: 400px;
+  top: 2730px;
+}
+div.axchaee h2 {
+  font-size: 29px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  padding: 5px 20px 0 0;
+  word-spacing: 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axchaee h3 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  padding: 0px 20px 0 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axpeste {
+  margin-top: 50px;
+  width: 100%;
+  height: 525px;
+  background-color: #e9d69f;
+  display: flex;
+  justify-content: center;
+}
+div.axpeste img {
+  width: 100%;
+  height: 500px;
+}
+div.axpeste > div.neweshte1 {
+  width: 289px;
+  height: 97px;
+  background-color: #ff0000;
+  color: #afb2b4;
+  position: absolute;
+  right: 400px;
+  top: 3560px;
+}
+div.axpeste h2 {
+  font-size: 29px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  padding: 5px 20px 0 0;
+  word-spacing: 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axpeste h3 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  padding: 0px 20px 0 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axchaee {
+  margin-top: 50px;
+  width: 100%;
+  height: 525px;
+  background-color: #e9d69f;
+  display: flex;
+  justify-content: center;
+}
+div.axchaee img {
+  width: 100%;
+  height: 500px;
+}
+div.axchaee > div.neweshte1 {
+  width: 289px;
+  height: 97px;
+  background-color: #ff0000;
+  color: #afb2b4;
+  position: absolute;
+  right: 400px;
+  top: 3610px;
+}
+div.axchaee h2 {
+  font-size: 29px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  text-decoration: none;
+  padding: 5px 20px 0 0;
+  word-spacing: 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.axchaee h3 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: iran;
+  line-height: 36px;
+  padding: 0px 20px 0 0;
+  color: #fcfdfe;
+  display: block;
+}
+div.na {
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+}
+.axama
